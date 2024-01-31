@@ -6,9 +6,9 @@ const cors = require("cors")
 
 const port = process.env.PORT || 587;
 
-// app.get("/", (req,res) => {
-//     res.send("Server Start")
-// })
+app.get("/", (req,res) => {
+    res.send("Server Start")
+})
 
 app.use(express.json());
 app.use(cors());
