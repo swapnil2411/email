@@ -7,7 +7,7 @@ const cors = require("cors")
 const port = process.env.PORT || 443;
 
 app.get("/", (req,res) => {
-    res.send("Server Start on: ", port)
+    res.send(`Server start at port no: ${port}`)
 })
 
 app.use(express.json());
