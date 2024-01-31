@@ -1,10 +1,10 @@
-
+require('dotenv').config();
 const express = require("express");
 const app = express();
 const router = require("./routes/router");
 const cors = require("cors")
 
-const port = 8006;
+const port = process.env.PORT || 587;
 
 // app.get("/", (req,res) => {
 //     res.send("Server Start")
