@@ -4,7 +4,7 @@ const app = express();
 const router = require("./routes/router");
 const cors = require("cors")
 
-const port = process.env.PORT || 443;
+const port = process.env.PORT || 8006;
 
 app.get("/", (req,res) => {
     res.send(`Server start at port no: ${port}`)
