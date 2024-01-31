@@ -6,7 +6,11 @@ const cors = require("cors")
 
 const port = process.env.PORT || 8006;
 
-app.get("/", (req,res) => {
+// app.get("/", (req,res) => {
+//     res.send(`Server start at port no: ${port}`)
+// })
+
+app.get("/register1", (req,res) => {
     res.send(`Server start at port no: ${port}`)
 })
 
