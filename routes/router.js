@@ -20,7 +20,7 @@ router.post("/register", (req,res) => {
             subject: "Testing Mail",
             html: `<div style='max-width: 600px; margin: 0 auto; border: 1px solid #e6e6e6'>
                 <div style='padding: 30px 0 10px; border-bottom: 1px solid #e6e6e6;'>
-                    <img src='https://cdn-icons-png.flaticon.com/512/7286/7286142.png' style='max-width: 100px; margin: 0 auto, display: block' />
+                    <img src='https://cdn-icons-png.flaticon.com/512/7286/7286142.png' style='max-width: 100px; margin: 0 auto; display: block' />
                     <h2 style='font-size: 24px; font-weight: 600; color: #2a2a2a; text-align: center'>Website Enquiry</h2>
                 </div>
                 <div>
