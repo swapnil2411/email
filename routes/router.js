@@ -26,19 +26,19 @@ router.post("/register", (req,res) => {
                 <div>
                     <p style='display: flex; padding: 10px; border-bottom: 1px solid #e6e6e6;'>
                         <span style='width: 100px; font-weight: 600; display: inline-block'>Name: </span>
-                        <span style='calc(100% - 100px); display: inline-block'>${formData.name}</span>
+                        <span style='width: calc(100% - 100px); display: inline-block'>${formData.name}</span>
                     </p>
                     <p style='display: flex; padding: 10px; border-bottom: 1px solid #e6e6e6;'>
                         <span style='width: 100px; font-weight: 600; display: inline-block'>Email: </span>
-                        <span style='calc(100% - 100px); display: inline-block'>${formData.email}</span>
+                        <span style='width: calc(100% - 100px); display: inline-block'>${formData.email}</span>
                     </p>
                     <p style='display: flex; padding: 10px; border-bottom: 1px solid #e6e6e6;'>
                         <span style='width: 100px; font-weight: 600; display: inline-block'>Subject: </span>
-                        <span style='calc(100% - 100px); display: inline-block'>${formData.subject}</span>
+                        <span style='width: calc(100% - 100px); display: inline-block'>${formData.subject}</span>
                     </p>
                     <p style='display: flex; padding: 10px'>
                         <span style='width: 100px; font-weight: 600; display: inline-block'>Name: </span>
-                        <span style='calc(100% - 100px); display: inline-block'>${formData.message}</span>
+                        <span style='width: calc(100% - 100px); display: inline-block'>${formData.message}</span>
                     </p>
                 </<div>
             </div>`
