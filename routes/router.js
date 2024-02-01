@@ -19,20 +19,20 @@ router.post("/register", (req,res) => {
             to: process.env.EMAIL,
             subject: "Testing Mail",
             html: `<div style='max-width: 600px; margin: 0 auto; border: 1px solid #e6e6e6'>
-                <div>
-                    <img src='https://cdn-icons-png.flaticon.com/512/7286/7286142.png' style='max-width: 60px;' />
+                <div style='padding: 10px 0; border-bottom: 1px solid #e6e6e6;'>
+                    <img src='https://cdn-icons-png.flaticon.com/512/7286/7286142.png' style='max-width: 100px; margin: 0 auto' />
                     <h2 style='font-size: 24px; font-weight: 600; color: #2a2a2a; text-align: center'>Website Enquiry</h2>
                 </div>
                 <div>
-                    <p style='padding: 10px 0', border-bottom: 1px solid #e6e6e6>
+                    <p style='padding: 10px 0; border-bottom: 1px solid #e6e6e6;'>
                         <span style='max-width: 200px; display: inline-block'>Name: </span>
                         <span>${formData.name}</span>
                     </p>
-                    <p style='padding: 10px 0, border-bottom: 1px solid #e6e6e6'>
+                    <p style='padding: 10px 0; border-bottom: 1px solid #e6e6e6;'>
                         <span style='max-width: 200px; display: inline-block'>Email: </span>
                         <span>${formData.email}</span>
                     </p>
-                    <p style='padding: 10px 0, border-bottom: 1px solid #e6e6e6'>
+                    <p style='padding: 10px 0; border-bottom: 1px solid #e6e6e6;'>
                         <span style='max-width: 200px; display: inline-block'>Subject: </span>
                         <span>${formData.subject}</span>
                     </p>
