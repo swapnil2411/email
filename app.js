@@ -10,9 +10,13 @@ const port = process.env.PORT || 8006;
 //     res.send(`Server start at port no: ${port}`)
 // })
 
-app.get("/register1", (req,res) => {
-    res.send(`Server start at port no: ${port}`)
-})
+// app.get("/register1", (req,res) => {
+//     res.send(`Server start at port no: ${port}`)
+// })
+
+// app.get("/register2", (req,res) => {
+//     res.send(`Server start at port no: ${port}`)
+// })
 
 app.use(express.json());
 app.use(cors());
