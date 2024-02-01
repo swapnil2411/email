@@ -20,24 +20,24 @@ router.post("/register", (req,res) => {
             subject: "Testing Mail",
             html: `<div style='max-width: 600px; margin: 0 auto; border: 1px solid #e6e6e6'>
                 <div>
-                    <img src='https://cdn-icons-png.flaticon.com/512/7286/7286142.png ' />
-                    <h2 style='font-size: 20px; color: #2a2a2a;'>Website Enquiry</h2>
+                    <img src='https://cdn-icons-png.flaticon.com/512/7286/7286142.png' style='max-width: 60px;' />
+                    <h2 style='font-size: 24px; font-weight: 600; color: #2a2a2a; text-align: center'>Website Enquiry</h2>
                 </div>
                 <div>
-                    <p style='padding: 10px 0'>
-                        <span style='max-width: 200px'>Name: </span>
+                    <p style='padding: 10px 0', border-bottom: 1px solid #e6e6e6>
+                        <span style='max-width: 200px; display: inline-block'>Name: </span>
                         <span>${formData.name}</span>
                     </p>
-                    <p style='padding: 10px 0'>
-                        <span style='max-width: 200px'>Email: </span>
+                    <p style='padding: 10px 0, border-bottom: 1px solid #e6e6e6'>
+                        <span style='max-width: 200px; display: inline-block'>Email: </span>
                         <span>${formData.email}</span>
                     </p>
-                    <p style='padding: 10px 0'>
-                        <span style='max-width: 200px'>Subject: </span>
+                    <p style='padding: 10px 0, border-bottom: 1px solid #e6e6e6'>
+                        <span style='max-width: 200px; display: inline-block'>Subject: </span>
                         <span>${formData.subject}</span>
                     </p>
                     <p style='padding: 10px 0'>
-                        <span style='max-width: 200px'>Name: </span>
+                        <span style='max-width: 200px; display: inline-block'>Name: </span>
                         <span>${formData.message}</span>
                     </p>
                 </<div>
