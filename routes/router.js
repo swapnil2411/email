@@ -25,20 +25,20 @@ router.post("/register", (req,res) => {
                 </div>
                 <div>
                     <p style='padding: 10px; border-bottom: 1px solid #e6e6e6;'>
-                        <span style='width: 100px; font-weight: 600; display: inline-block'>Name: </span>
-                        <span style='width: calc(600px - 100px)'>${formData.name}</span>
+                        <span style='display: flex; width: 100px; font-weight: 600; display: inline-block'>Name: </span>
+                        <span>${formData.name}</span>
                     </p>
                     <p style='padding: 10px; border-bottom: 1px solid #e6e6e6;'>
-                        <span style='width: 100px; font-weight: 600; display: inline-block'>Email: </span>
-                        <span style='width: calc(600px - 100px)'>${formData.email}</span>
+                        <span style='display: flex; width: 100px; font-weight: 600; display: inline-block'>Email: </span>
+                        <span>${formData.email}</span>
                     </p>
                     <p style='padding: 10px; border-bottom: 1px solid #e6e6e6;'>
-                        <span style='width: 100px; font-weight: 600; display: inline-block'>Subject: </span>
-                        <span style='width: calc(600px - 100px)'>${formData.subject}</span>
+                        <span style='display: flex; width: 100px; font-weight: 600; display: inline-block'>Subject: </span>
+                        <span>${formData.subject}</span>
                     </p>
                     <p style='padding: 10px'>
-                        <span style='width: 100px; font-weight: 600; display: inline-block'>Name: </span>
-                        <span style='width: calc(600px - 100px)'>${formData.message}</span>
+                        <span style='display: flex; width: 100px; font-weight: 600; display: inline-block'>Name: </span>
+                        <span>${formData.message}</span>
                     </p>
                 </<div>
             </div>`
