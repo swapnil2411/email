@@ -49,12 +49,12 @@ router.post("/register", (req,res) => {
                 console.log("Error ", error)
             }else{
                 console.log("Email Sent " + info.response);
-                res.status(201).json({status: 201, info})
+                res.status(201).json({status: 'success', message: 'Email sent successfully'})
             }
         })
         
     } catch (error) {
-        res.status(201).json({status: 401, error})
+        res.status(401).json({status: "error", error})
     }
 });
 
